@@ -1,0 +1,250 @@
+.aui-btn {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 0.65rem 1.2rem;
+  font-size: 16px !important;
+  cursor: pointer!important;
+  color: black!important;
+  background-color: #d1d1d1!important;
+  outline: none !important;
+}
+
+.aui-btn:disabled {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border-radius: 5px !important;
+  padding: 0.65rem 1.2rem;
+  font-size: 16px !important;
+  cursor: not-allowed!important;
+  color: black!important;
+  background-color: #d1d1d1!important;
+  outline: none !important;
+}
+
+.aui-btn:hover {
+  background: #e2e1e1 radial-gradient(circle, transparent 1%, #d1d1d1 1%) center/15000%;
+}
+
+.aui-btn:active {
+  background-color: #e2e1e1;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+/* ---------------------All Buttons--------------------------- */
+
+/* Refresh Button */
+.aui-btn-refresh {
+  background-color: #fff5e0 !important;
+  color: #f6b42f !important;
+}
+.aui-btn-refresh:hover {
+  background: #fffbf2 radial-gradient(circle, transparent 1%, #fffbf2 1%) center/15000% !important;
+  color: #ffc551 !important;
+}
+
+.aui-btn-refresh:active {
+  background-color: #fff5e0 !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+/* Prmary Button */
+
+.aui-btn-primary {
+  background-color: #007bff !important;
+  color: white !important;
+}
+
+.aui-btn-primary:disabled {
+  background-color: #5baaff !important;
+  color: white !important;
+}
+
+.aui-btn-primary:hover {
+  background: #409cff radial-gradient(circle, transparent 1%, #409cff 1%) center/15000% !important;
+}
+
+.aui-btn-primary:active {
+  background-color: #2990ff !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.aui-btn-primary-outline {
+  background-color: white !important;
+  color: #2990ff !important;
+  border: 1px solid #2990ff !important;
+}
+.aui-btn-primary-outline:hover {
+  background-color: #2990ff !important;
+  color: white !important;
+  border: 1px solid #2990ff !important;
+}
+
+/* Dark Button */
+
+.aui-btn-dark {
+  background-color: #202830 !important;
+  color: white !important;
+}
+
+.aui-btn-dark:disabled {
+  background-color: #656d76 !important;
+  color: white !important;
+}
+
+.aui-btn-dark:hover {
+  background: #3f4348 radial-gradient(circle, transparent 1%, #3f4348 1%) center/15000% !important;
+}
+
+.aui-btn-dark:active {
+  background-color: #23303c !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.aui-btn-dark-outline {
+  background-color: white !important;
+  color: #0d1115 !important;
+  border: 1px solid #0d1115 !important;
+}
+.aui-btn-dark-outline:hover {
+  background-color: #0d1115 !important;
+  color: white !important;
+  border: 1px solid #0d1115 !important;
+}
+
+/* Danger Button */
+
+.aui-btn-danger {
+  background-color: #e80112 !important;
+  color: white !important;
+}
+
+.aui-btn-danger:disabled {
+  background-color: #ff4b57 !important;
+  color: white !important;
+}
+
+.aui-btn-danger:hover {
+  background: #e94550 radial-gradient(circle, transparent 1%, #e94550 1%) center/15000% !important;
+}
+
+.aui-btn-danger:active {
+  background-color: #fa3b3b !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.aui-btn-danger-outline {
+  background-color: white !important;
+  color: #fa3b3b !important;
+  border: 1px solid #fa3b3b !important;
+}
+.aui-btn-danger-outline:hover {
+  background-color: #fa3b3b !important;
+  color: white !important;
+  border: 1px solid #fa3b3b !important;
+}
+
+/* Success Button */
+
+.aui-btn-success {
+  background-color: #28a745 !important;
+  color: white !important;
+}
+
+.aui-btn-success:disabled {
+  background-color: #58cb73 !important;
+  color: white !important;
+}
+
+.aui-btn-success:hover {
+  background: #31c554 radial-gradient(circle, transparent 1%, #31c554 1%) center/15000% !important;
+}
+
+.aui-btn-success:active {
+  outline: none;
+  background-color: #35d259 !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+.aui-btn-success-outline {
+  background-color: white !important;
+  color: #28a745 !important;
+  border: 1px solid #28a745 !important;
+}
+.aui-btn-success-outline:hover {
+  background-color: #28a745 !important;
+  color: white !important;
+  border: 1px solid #28a745 !important;
+}
+/* Warning Button */
+
+.aui-btn-warning {
+  background-color: #ffc107 !important;
+  color: white !important;
+}
+
+.aui-btn-warning:disabled {
+  background-color: #ffd65b !important;
+  color: white !important;
+}
+
+.aui-btn-warning:hover {
+  background: #ffc823 radial-gradient(circle, transparent 1%, #ffc823 1%) center/15000% !important;
+}
+
+.aui-btn-warning:active {
+  outline: none;
+  background-color: #ffd455 !important;
+  background-size: 100% !important;
+  transition: background 0s !important;
+}
+
+.aui-btn-warning-outline {
+  background-color: white !important;
+  color: #ffd455 !important;
+  border: 1px solid #ffd455 !important;
+}
+.aui-btn-warning-outline:hover {
+  background-color: #ffd455 !important;
+  color: white !important;
+  border: 1px solid #ffd455 !important;
+}
+/*-------------------Small Buttons------------------*/
+.aui-btn-sm-i {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border: none !important;
+  border-radius: 5px !important;
+  min-width: 30px !important;
+  height: 30px !important;
+  font-size: 14px !important;
+  cursor: pointer;
+  color: black;
+  background-color: #d1d1d1;
+  outline: none !important;
+}
+.aui-btn-sm {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border: none !important;
+  border-radius: 5px !important;
+  padding: 0.35rem 1.0rem;
+  font-size: 14px !important;
+  cursor: pointer;
+  color: black;
+  background-color: #d1d1d1;
+  outline: none !important;
+}
+.aui-btn-sm:disabled {
+  background-position: center !important;
+  transition: background 0.8s !important;
+  border-radius: 5px !important;
+  padding: 0.35rem 1.0rem;
+  font-size: 14px !important;
+  cursor: not-allowed;
+  color: rgb(18, 18, 18);
+  background-color: #edebeb;
+  outline: none !important;
+}
