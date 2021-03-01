@@ -3,8 +3,14 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AuiButtonModule, AuiCardModule } from 'projects/alpha-ui/src/public-api';
-// import { AuiButtonModule, AuiCardModule } from 'alpha-ui';
+import { AuiButtonModule, AuiCardModule, AuiInputModule, AuiNavbarModule } from 'projects/alpha-ui/src/public-api';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import {
+//   AuiButtonModule,
+//   AuiCardModule,
+//   AuiNavbarModule,
+//   AuiInputModule
+// } from 'alpha-ui';
 
 @NgModule({
   declarations: [
@@ -12,9 +18,12 @@ import { AuiButtonModule, AuiCardModule } from 'projects/alpha-ui/src/public-api
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     AuiButtonModule,
-    AuiCardModule
+    AuiCardModule,
+    AuiNavbarModule,
+    AuiInputModule
   ],
   providers: [],
   bootstrap: [AppComponent],

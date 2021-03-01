@@ -1,45 +1,72 @@
+/*------------------------------------Roboto Font-------------------------------*/
+@font-face {
+  font-family: aui-font;
+  src        : url(../aui-font/Roboto-Medium.ttf);
+}
+/*------------------------------------------------------------------------------*/
+.shadow--hover-sm:hover {
+  box-shadow: 0 .125rem .25rem rgba(#000, .075) !important;
+}
+
+.shadow--hover:hover {
+  box-shadow: 0 .5rem 1rem rgba(#000, .15) !important;
+}
+
+.shadow--hover-lg:hover {
+  box-shadow: 0 1rem 3rem rgba(#000, .175) !important;
+}
+
 .shadow-default {
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.15) !important;
 }
+
 .shadow-0 {
   box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08), 0 0 0px rgba(0, 0, 0, 0.15) !important;
 }
+
 .shadow-1 {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08), 0 0 4px rgba(0, 0, 0, 0.15) !important;
 }
+
 .shadow-2 {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.15) !important;
 }
+
 .shadow-3 {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08), 0 0 8px 1px rgba(0, 0, 0, 0.15) !important;
 }
+
 .expand--hover {
   &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    transform : scale(1.05) !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06) !important;
   }
 }
+
 .lift-y-up--hover {
   &:hover {
-    transform: translateY(-20px);
-    transition: all 0.2s ease-in-out;
+    transform : translateY(-20px) !important;
+    transition: all 0.2s ease-in-out !important;
   }
 }
+
 .lift-y-down--hover {
   &:hover {
-    transform: translateY(20px);
-    transition: all 0.2s ease-in-out;
+    transform : translateY(20px) !important;
+    transition: all 0.2s ease-in-out !important;
   }
 }
+
 .move-x-right--hover {
   &:hover {
-    transform: translateX(20px);
-    transition: all 0.2s ease-in-out;
+    transform : translateX(20px) !important;
+    transition: all 0.2s ease-in-out !important;
   }
 }
+
 .move-x-left--hover {
   &:hover {
-    transform: translateX(-20px);
-    transition: all 0.2s ease-in-out;
+    transform : translateX(-20px) !important;
+    transition: all 0.2s ease-in-out !important;
   }
 }

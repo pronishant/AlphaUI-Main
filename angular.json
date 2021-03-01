@@ -68,9 +68,13 @@
               "projects/dummy/src/assets"
             ],
             "styles": [
-              "projects/dummy/src/styles.scss"
+              "projects/dummy/src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -163,6 +167,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "alpha-ui"
 }

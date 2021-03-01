@@ -1,17 +1,31 @@
-<h2>Buttons</h2>
-<div>
-  <aui-button auiBtnClass="aui-btn aui-btn-success">Success</aui-button>
-</div>
-<br>
-<div>
-  <aui-button auiBtnClass="aui-btn-sm aui-btn-danger">Danger</aui-button>
-</div>
-<br>
-<div>
-  <aui-button auiBtnClass="aui-btn-sm-i aui-btn-primary"><i class="fa fa-check"></i></aui-button>
-</div>
-<h2>Cards</h2>
-<aui-card>
-  <h4>This is Alpha-UI Card</h4>
-  <p>My name is Nishant. I am a web developer.</p>
-</aui-card>
+<!-- -----------------------------Navbar-------------------- -->
+<aui-navbar [isSticky]=true>
+  <p class="h5 my-0 me-md-auto fw-normal">Alpha UI</p>
+  <span class="spacer"></span>
+  <button class="btn btn-primary">Sign up</button>
+</aui-navbar>
+<section class="content px-1">
+  <h2>Input</h2>
+  <aui-input auiInputClass="form-control"></aui-input>
+  <br>
+  <h2>Buttons</h2>
+  <div>
+    <aui-button auiBtnClass="aui-btn aui-btn-success">Success</aui-button>
+  </div>
+  <br>
+  <div>
+    <aui-button auiBtnClass="aui-btn-sm aui-btn-danger">Danger</aui-button>
+  </div>
+  <br>
+  <div>
+    <aui-button auiBtnClass="aui-btn-sm-i aui-btn-primary"><i class="fa fa-check"></i></aui-button>
+  </div>
+
+  <h2>Cards</h2>
+  <div class="p-3">
+    <aui-card>
+      <aui-card-title cardHeader>This is card header</aui-card-title>
+      <p>this is card content</p>
+    </aui-card>
+  </div>
+</section>

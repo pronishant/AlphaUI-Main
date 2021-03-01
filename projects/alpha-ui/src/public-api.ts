@@ -14,3 +14,15 @@ export * from './lib/aui-button/aui-button.directive';
 /* Card Module */
 export * from './lib/aui-card/aui-card.module';
 export * from './lib/aui-card/aui-card.component';
+
+/* Navbar Module */
+export * from './lib/aui-navbar/aui-navbar.module';
+export * from './lib/aui-navbar/aui-navbar.component';
+
+/* Sidebar Module */
+export * from './lib/aui-sidebar/aui-sidebar.module';
+export * from './lib/aui-sidebar/aui-sidebar.component';
+
+/* Input Module */
+export * from './lib/aui-input/aui-input.module';
+export * from './lib/aui-input/aui-input.component';

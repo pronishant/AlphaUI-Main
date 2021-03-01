@@ -1,0 +1,9 @@
+@font-face {
+  font-family: aui-font;
+  src        : url(../../aui-font/Roboto-Medium.ttf);
+}
+
+:host {
+  font-family: aui-font;
+  font-size  : 1.25rem;
+}
